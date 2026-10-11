@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 20 820 320" width="820" height="320" role="img" aria-labelledby="t">
+  <title id="t">Rupture</title>
+  <g fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round">
+    <!-- R : bonhomme (tête = boucle du R, jambes = fût + jambe du R) -->
+    <g stroke-width="22">
+      <path d="M100 70 V320"/>
+      <path d="M100 70 H150 A60 60 0 0 1 150 190 H100"/>
+      <path d="M104 190 L185 320"/>
+    </g>
+    <!-- bras qui tient la loupe -->
+    <path d="M100 236 L234 248" stroke-width="14"/>
+    <!-- oeil qui regarde vers la loupe -->
+    <path d="M122 130 Q152 102 186 130 Q152 158 122 130 Z" stroke-width="8"/>
+    <circle cx="158" cy="130" r="10" fill="#ffffff" stroke="none"/>
+    <!-- traits de regard -->
+    <g stroke-width="9">
+      <path d="M208 56 L216 34"/>
+      <path d="M228 82 L248 64"/>
+      <path d="M240 112 L262 104"/>
+    </g>
+    <!-- U : loupe -->
+    <circle cx="330" cy="150" r="68" stroke-width="18"/>
+    <path d="M281 199 L236 244" stroke-width="26"/>
+    <path d="M294 132 A40 40 0 0 1 318 110" stroke-width="8" opacity=".45"/>
+    <!-- PTURE -->
+    <g stroke-width="14">
+      <path transform="translate(425 0)" d="M0 220 V130 H30 A25 25 0 0 1 30 180 H0"/>
+      <path transform="translate(504 0)" d="M0 130 H64 M32 130 V220"/>
+      <path transform="translate(592 0)" d="M0 130 V185 A30 30 0 0 0 60 185 V130"/>
+      <path transform="translate(676 0)" d="M0 220 V130 H30 A25 25 0 0 1 30 180 H0 M28 180 L60 220"/>
+      <path transform="translate(760 0)" d="M55 130 H0 V220 H55 M0 175 H45"/>
+    </g>
+  </g>
+</svg>
